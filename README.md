@@ -1,5 +1,7 @@
-# review_response_letter
+# Review Response Letter
 Template for Latex and/or Pandoc to quickly write (author) response letters to reviews 
+
+![Screenshot of the output PDF](https://cloud.githubusercontent.com/assets/7942719/26236559/4072b56a-3c71-11e7-84c6-5ba4599fd031.png)
 
 ## Either write in Latex
 
