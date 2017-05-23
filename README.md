@@ -5,7 +5,7 @@ Template for Latex and/or Pandoc to quickly write reviews and (author) response 
 
 Use the examples in folder `RC_to_MS/`.
 
-<img alt="Screenshot of the output PDF of Review Comments to the Manuscript" src="https://cloud.githubusercontent.com/assets/7942719/26349934/c705b42c-3fb1-11e7-9b12-e007d54f9a47.png" style="max-width: 100%" />
+<img alt="Screenshot of the output PDF of Review Comments to the Manuscript" src="https://cloud.githubusercontent.com/assets/7942719/26351113/57c6fd46-3fb6-11e7-926f-2441c813ced1.png" style="max-width: 100%" />
 
 ### Option A: Latex
 
