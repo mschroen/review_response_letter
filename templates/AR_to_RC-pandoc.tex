@@ -1,0 +1,15 @@
+\documentclass{article}
+\input{../templates/preamble.tex}
+\begin{document}
+
+{\Large\bf $if(responsetitle)$$responsetitle$$else$Author Response to Reviews of$endif$}\\[1em]
+$if(papertitle)${\huge $papertitle$}\\[1em]$endif$
+$if(authors)${$authors$}\\$endif$
+$if(journal)${\it $journal$ }$endif$$if(doi)$\texttt{doi:$doi$}$endif$\\
+\hrule
+
+\hfill {\bfseries RC:} \textbf{\textit{Reviewer Comment}},\(\quad\) AR: \emph{Author Response}, \(\quad\square\) Manuscript text
+
+$body$
+
+\end{document}

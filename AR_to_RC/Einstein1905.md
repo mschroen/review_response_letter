@@ -1,32 +1,29 @@
-{\Large\bf Author Response to Reviews of}\\[1em]
-{\huge The Dark Side of Ligth}\\[1em]
-{A. Einstein}\\
-{\it Some Journal, }\texttt{doi:12345}\\
-\hrule
+---
+papertitle: "The Dark Side of Light"
+authors: "A. Einstein"
+journal: Some Journal,
+doi: 12345
+---
 
-\hfill {\bfseries RC:} \textbf{\textit{Reviewer Comment}},\(\quad\) AR: \emph{Author Response}, \(\quad\square\) Manuscript text
+# Reviewer \#1
 
-\section{Reviewer \#1}
-
-\subsection{Page 3 Line 15}
+## Page 3 Line 15
 
 \RC Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 \AR I do not agree.
 
-\subsection{Major concern \#3}
+## Major concern \#3
 
 \RC Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 \AR Ok, I changed this:
 
-\begin{quote}
-The cat in the box is \DIFdelbegin \DIFdel{dead}\DIFdelend \DIFaddbegin \DIFadd{alive}\DIFaddend .
+> The cat in the box is \DIFdelbegin \DIFdel{dead}\DIFdelend \DIFaddbegin \DIFadd{alive}\DIFaddend .
 \begin{align}
 E &= mc^2 \\
 m\cdot \DIFdelbegin \DIFdel{a=F}\DIFdelend \DIFaddbegin \DIFadd{v=p}\DIFaddend .
 \end{align}
-\end{quote}
 
 \AR*But I actually have no idea what you were talking about.
 

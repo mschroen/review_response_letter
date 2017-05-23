@@ -1,4 +1,3 @@
-\documentclass{article}
 \usepackage[includeheadfoot,top=20mm, bottom=20mm, footskip=2.5cm]{geometry}
 
 % Typography
@@ -12,6 +11,7 @@
 % Misc
 \usepackage{graphicx}
 \usepackage[hidelinks]{hyperref} %textopdfstring from pandoc
+\usepackage{soul} % Highlight using \hl{}
 
 % Table
 
@@ -94,19 +94,3 @@
 \providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
 \providecommand{\DIFdelendFL}{} %DIF PREAMBLE
 %DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
-
-
-\begin{document}
-
-
-{\Large\bf $if(responsetitle)$$responsetitle$$else$Author Response to Reviews of$endif$}\\[1em]
-$if(papertitle)${\huge $papertitle$}\\[1em]$endif$
-$if(authors)${$authors$}\\$endif$
-$if(journal)${\it $journal$ }$endif$$if(doi)$\texttt{doi:$doi$}$endif$\\
-\hrule
-
-\hfill {\bfseries RC:} \textbf{\textit{Reviewer Comment}},\(\quad\) AR: \emph{Author Response}, \(\quad\square\) Manuscript text
-
-$body$
-
-\end{document}
